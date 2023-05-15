@@ -7,7 +7,11 @@ import Web_Development from './Pages/Web_Development/Web_Development'
 import Graphic_Design from './Pages/Graphic_Designing/Graphic_Design'
 import Digital_Marketing from './Pages/Digital_Marketing/Digital_Marketing'
 import Mobile_Apps from './Pages/Mobile_Apps/Mobile_Apps'
+import CRM_Softwares from './Pages/CRM/CRM_Softwares'
 import Contact from './Pages/Contact/Contact'
+import SEO from './Pages/SEO/SEO';
+import Whatsapp from './Components/Whatsapp/Whatsapp';
+import Chat from './Components/Chat/Chat';
 
 function App() {
   return (
@@ -22,10 +26,14 @@ function App() {
           <Route exact path='/Graphic_Design' element={<Graphic_Design />} />
           <Route exact path='/Digital_Marketing' element={<Digital_Marketing />} />
           <Route exact path='/Mobile_Apps' element={<Mobile_Apps />} />
+          <Route exact path='/CRM_Softwares' element={<CRM_Softwares />} />
+          <Route exact path='/SEO' element={<SEO />} />
           <Route exact path='/Contact' element={<Contact />} />
         </Routes>
 
       </BrowserRouter>
+      {/* <Whatsapp /> */}
+      <Chat />
     </>
   )
 }

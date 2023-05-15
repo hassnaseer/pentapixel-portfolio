@@ -64,6 +64,18 @@ function Services() {
                     </div>
                 </article>
             </section>
+            <section className='text-center'>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <a href="/Service" class="btn1 btn1-lg">
+                                <span>Load More</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
             <section class="articles my-4">
                 <article>
                     <div class="article-wrapper text-center">
@@ -71,11 +83,11 @@ function Services() {
                             <img src="https://www.elexoft.com/assets/images/services/mobile-app-dev-min.jpg" alt="" />
                         </figure>
                         <div class="article-body">
-                            <h2>Marketing</h2>
+                            <h2>Mobile Apps</h2>
                             <p>
                                 To improve your digital strategy and benefit from all the advantages of the mobile digital age, the mobile application allows you to open new distribution channels for your business. A dedicated application makes it possible to improve the visibility of brands, build customer loyalty, promote, locate products and services or even improve your company's business processes.
                             </p>
-                            <a href="/" class="read-more">
+                            <a href="/Mobile_Apps" class="read-more">
                                 Read more <span class="sr-only">about this is some title</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
                                     <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -97,7 +109,7 @@ function Services() {
 
 
                             </p>
-                            <a href="/" class="read-more">
+                            <a href="/CRM_Softwares" class="read-more">
                                 Read more <span class="sr-only">about this is some title</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
                                     <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -117,7 +129,7 @@ function Services() {
                             <p>
                                 We analyze and define the keywords searched in Google relative and essential to your business development, the objective being to be visible on the 1st page of Google. Then, we apply an SEO strategy, also called natural referencing, and aimed at optimizing the 3 pillars of SEO: the technical performance of your website, the relevance of the content, then the popularity of the site.
                             </p>
-                            <a href="/Digital_Marketing" class="read-more">
+                            <a href="/SEO" class="read-more">
                                 Read more <span class="sr-only">about this is some title</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
                                     <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -127,7 +139,19 @@ function Services() {
                     </div>
                 </article>
             </section>
-            <section class="articles my-4">
+            <section className='text-center'>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <a href="/Service" class="btn1 btn1-lg">
+                                <span>Load More</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            {/* <section class="articles my-4">
                 <article>
                     <div class="article-wrapper text-center">
                         <figure>
@@ -190,7 +214,19 @@ function Services() {
                         </div>
                     </div>
                 </article>
-            </section>
+            </section> */}
+            {/* <section className='text-center'>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <a href="/Service" class="btn btn-lg">
+                                <span>Load More</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section> */}
         </>
     )
 }
