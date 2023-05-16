@@ -9,8 +9,27 @@ function Web_Development() {
                 <Navbar />
             </div>
 
+            <br /><br />
+            <div className="my-5"
+                id="intro"
+                class="bg-image"
+                style={{
+                    backgroundImage: 'url(https://media.istockphoto.com/id/1371339413/photo/co-working-team-meeting-concept-businessman-using-smart-phone-and-digital-tablet-and-laptop.jpg?s=612x612&w=0&k=20&c=ysEsVw3q2axYt3oVZAuQjtHRlN3lY-U_e0ikK5yKIXQ=   )',
+                    height: '100%'
+                }}
+            >
+                <div class="mask text-white" style={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}>
+                    <div class="container d-flex align-items-center text-center h-100">
+                        <div><br />
+                            <h1 class="mb-5 my-5 text-center">Web Development Company Near Me</h1>
 
-            <div class="jumbotron jumbotron-fluid">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            {/* <div class="jumbotron jumbotron-fluid">
                 <div class="container text-center">
                     <h1 class="home-title">
 
@@ -21,7 +40,7 @@ function Web_Development() {
                     </h1>
 
                 </div>
-            </div>
+            </div> */}
             <div className="container my-4">
                 <h3 className="text-center">WE ARE YOUR WEB DEVELOPMENT COMPANY</h3>
                 <p>PentaPixel is a full-time web development company. We are specialized in web development, custom programming, and template-based web pages. We really love and feel passion for what we do. We always seek the benefit and satisfaction of our clients, through personalized advice and quality in all our developments. We are continuously researching and testing new technologies with the aim of improving the quality of our developments and services and that they add value to our customers. We develop quality websites always thinking of two potential profiles: people and search engines. We carry out a complete analysis of your sector that allows us to know what type of website you need, and from there we define the information architecture, content strategy, and friendly URLs.</p>

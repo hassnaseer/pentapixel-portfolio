@@ -7,7 +7,7 @@ function Works() {
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <div class="box">
-                            <img src="https://www.elexoft.com/assets/portfolio_images/400x400/962bee318844dd05f7ab242a508a00fd.jpg" />
+                            <img src="https://images.unsplash.com/photo-1517292987719-0369a794ec0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNvY2lhbCUyMHBsYXRmb3Jtc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" />
                             <div class="box-content">
                                 <h3 class="title">Social Platforms for Investors</h3>
 
@@ -17,7 +17,7 @@ function Works() {
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="box">
-                            <img src="https://www.elexoft.com/assets/portfolio_images/400x400/fc06453002bb055a57f521165318aadd.jpg" />
+                            <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXBwc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" />
                             <div class="box-content">
                                 <h3 class="title">Matrimonial App</h3>
 
@@ -26,7 +26,7 @@ function Works() {
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="box">
-                            <img src="https://www.elexoft.com/assets/portfolio_images/400x400/7b1352243ab376974587bb58ebead823.jpg" />
+                            <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXBwb2ludG1lbnQlMjBhcHB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60 " />
                             <div class="box-content">
                                 <h3 class="title">Barber Appointment App</h3>
 
