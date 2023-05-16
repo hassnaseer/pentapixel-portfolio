@@ -17,8 +17,8 @@ function SEO() {
             >
                 <div class="mask text-white" style={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}>
                     <div class="container d-flex align-items-center text-center h-100">
-                        <div>
-                            <h1 class="mb-5 my-5 text-center">Best SEO Services In Pakistan</h1>
+                        <div><br />
+                            <h1 class="mb-5 my-5 text-center">Best SEO Services </h1>
 
                         </div>
                     </div>

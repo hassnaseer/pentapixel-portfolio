@@ -15,7 +15,7 @@ function Graphic_Design() {
             >
                 <div class="mask text-white" style={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}>
                     <div class="container d-flex align-items-center text-center h-100">
-                        <div>
+                        <div><br />
                             <h1 class="mb-5 my-5 text-center">Best Graphic Designing Services</h1>
 
                         </div>
