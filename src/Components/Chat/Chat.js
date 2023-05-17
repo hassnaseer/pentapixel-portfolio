@@ -4,7 +4,7 @@ function Chat() {
     return (
         <>
 
-            <div class="floating-container">
+            <div class="floating-container z-index">
                 <div class="floating-button">+</div>
                 <div class="element-container">
 

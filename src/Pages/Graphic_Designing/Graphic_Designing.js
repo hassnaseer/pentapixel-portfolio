@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
-function Graphic_Design() {
+function Graphic_Designing() {
     return (
         <>
             <Navbar /><br /><br />
@@ -66,4 +66,4 @@ function Graphic_Design() {
     )
 }
 
-export default Graphic_Design
+export default Graphic_Designing
