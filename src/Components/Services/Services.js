@@ -3,7 +3,7 @@ import '../Services/Services.scss'
 function Services() {
     return (
         <>
-            <section class="articles my-4">
+            <section class="articles  my-4">
                 <article>
                     <div class="article-wrapper text-center">
                         <figure>

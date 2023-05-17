@@ -1,8 +1,32 @@
 import React from 'react'
-import '../Works/Works.scss'
-function Works() {
+import Navbar from '../../Components/Navbar/Navbar'
+import Footer from '../../Components/Footer/Footer'
+import Works from '../../Components/Works/Works'
+
+function Latest_Works() {
     return (
         <>
+            <div className="">
+                <Navbar />
+            </div><br /> <br />
+            <div className="my-5"
+                id="intro"
+                class="bg-image"
+                style={{
+                    backgroundImage: 'url(https://media.istockphoto.com/id/1416335096/photo/businessman-hand-holding-smart-phone-with-icon-mobile-phone-mail-telephone-and-address.jpg?s=612x612&w=0&k=20&c=ajOYHJPqlaKZ04BeSf5m3MsuZ_YGyxrUqEGMaS1hGGk=)',
+                    height: '100%'
+                }}
+            >
+                <div class="mask text-white" style={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}>
+                    <div class="container d-flex align-items-center text-center h-100">
+                        <div><br />
+                            <h1 class="mb-5 my-5 text-center">Our Latest Works</h1>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
@@ -35,18 +59,7 @@ function Works() {
                     </div>
                 </div>
             </div>
-            <section className='text-center my-4'>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <a href="/Latest_Works" class="btn1 btn1-lg">
-                                <span>Load More</span>
-                            </a>
-                        </div>
-                    </div>
 
-                </div>
-            </section>
             <div class="container my-4">
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
@@ -79,19 +92,8 @@ function Works() {
                     </div>
                 </div>
             </div>
-            <section className='text-center my-4'>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <a href="/Latest_Works" class="btn1 btn1-lg">
-                                <span>Load More</span>
-                            </a>
-                        </div>
-                    </div>
 
-                </div>
-            </section>
-            {/* <div class="container my-4">
+            <div class="container my-4">
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <div class="box">
@@ -121,10 +123,12 @@ function Works() {
                             </div>
                         </div>
                     </div>
+
                 </div>
-            </div> */}
+            </div>
+            <Footer />
         </>
     )
 }
 
-export default Works
+export default Latest_Works

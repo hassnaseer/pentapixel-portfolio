@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../Images/PentaPixel-Logo-removebg-preview.png'
+import img from '../../Images/PentaPixel-Logo1-removebg-preview.png'
 import { Link } from "react-router-dom";
 import './Navbar.css'
 function Navbar() {
@@ -21,20 +21,20 @@ function Navbar() {
                             </li>
 
 
-                            <li class=""> <Link class="nav-link" to="/About"> <b>
+                            <li class="nav-item active"> <Link class="nav-link" to="/About"> <b>
                                 About</b></Link>
                             </li>
 
                             <div class="menu-wrap">
                                 <ul class="menu">
                                     <li class="menu-item">
-                                        <Link class="nav-link" to="/Service"><b> Services</b></Link>
+                                        <Link class="nav-link" to="/Service" style={{ paddingTop: '8px' }}><b> Services</b></Link>
                                         <ul class="drop-menu">
                                             <li class="drop-menu-item my-2">
                                                 <Link to="/Web_Development"><b> Web Development</b></Link>
                                             </li>
                                             <li class="drop-menu-item my-2">
-                                                <Link to="/Graphic_Design"><b> Graphic Designing</b></Link>
+                                                <Link to="/Graphic_Designing"><b> Graphic Designing</b></Link>
                                             </li>
                                             <li class="drop-menu-item my-2">
                                                 <Link to="/Digital_Marketing"><b> Digital Marketing</b></Link>
@@ -56,15 +56,15 @@ function Navbar() {
                                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
                                 <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
                             </form> */}
-                            <div class="mx-2">
-                                <Link className="text-decoration-none mx-5 " to="tel:+923154475071"> <i class="bi bi-phone"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                            <sectionion class="mx-2 d-none d-lg-block ">
+                                <Link className="text-decoration-none mx-5" to="tel:+923154475071" style={{ color: '#118985' }}> <i class="bi bi-phone"></i><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
                                     <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
                                     <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
                                 </svg> 03154475071</Link>
-                                <button class="btn btn-success" data-toggle="modal" to="/Contact" data-target="/contact">Get a Free Quote</button>
+                                <button class="btn" data-toggle="modal" to="/Contact" data-target="/contact" style={{ backgroundColor: '#118985' }}><b> Get a Free Quote</b></button>
 
 
-                            </div>
+                            </sectionion>
                         </ul>
 
 

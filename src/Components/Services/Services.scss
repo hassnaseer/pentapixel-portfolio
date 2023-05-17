@@ -92,14 +92,14 @@ Generic layout (demo looks)
 
 .articles {
     display: grid;
-    max-width: 1200px;
+    max-width: 100%;
     margin-inline: auto;
-    padding-inline: 24px;
+    padding-inline: 0px;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 24px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 100%) {
     article {
         container: card/inline-size;
     }
